@@ -6,7 +6,7 @@
 # En esta función se quita el "0b" para dejar el "11"
 # ------------------------------------------------------
 def dec2bin(numero_decimal, numero_bits):
-    if numero_decimal >= 0
+    if numero_decimal >= 0:
         numero_binario = bin(numero_decimal)[2:]  # quita el "0b" del principio
         numero_binario = numero_binario.zfill(numero_bits)  # añade 0's a la izquierda si hace falta
     else:
